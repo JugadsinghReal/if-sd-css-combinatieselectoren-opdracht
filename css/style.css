@@ -7,12 +7,18 @@ Zie universele selector op Pagina 212 */
 
 /* Selecteer de body element en geef het de achtergrond kleur aliceblue
 zie typeselector op Pagina 211 */
-
+body{
+    background-color: aliceblue;
+}
 
 /* Selecter de header element welke direct onder de body zit met een kindselector 
 geef het de achtergrond kleur darkgoldenrod en als text-kleur wheat 
 geef de header een padding van 10px */
-
+header{
+    background-color: darkgoldenrod;
+    color: wheat;
+    padding: 10px;
+}
 
 /* Selecteer de h1-element en verander de lettertype naar monospace
 verander óók lettergrootte met font-size */
